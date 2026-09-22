@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "ScamGuard AI - Threat Intelligence Scanner",
+  "version": "1.0.0",
+  "description": "Right-click context menu scanner to detect fake check traps, phantom rental leases, and linguistic coercion vectors in real-time.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Open ScamGuard AI Scanner",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "public/assets/icon-16.png",
+    "48": "public/assets/icon-48.png",
+    "128": "public/assets/icon-128.png"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Remix ScamGuard AI",
+  "description": "Hardened cybersecurity threat intelligence suite featuring adversarial prompt injection shield, SSL/TLS handshake & phishing inspection, anti-evasion URL unshortener, RDAP WHOIS domain age audit, multimodal vision forensics, and psychological exploitation matrix.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
